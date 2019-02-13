@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.avary.login.ui.activity.LoginActivity">
+    <item
+        android:id="@+id/pre_download"
+        android:icon="@drawable/ic_file_download_white_24dp"
+        android:title="资料下载"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/image_download"
+        android:icon="@drawable/img_download"
+        android:title="图片下载"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/log"
+        android:icon="@drawable/log"
+        android:title="log"
+        app:showAsAction="ifRoom" />
+</menu>

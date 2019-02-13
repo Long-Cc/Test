@@ -1,0 +1,43 @@
+package com.avary.baselibrary.utils
+
+import android.annotation.SuppressLint
+import android.content.Context
+import android.net.ConnectivityManager
+
+/**
+ * Created by G1596570 on 2019/1/7.
+ *
+ * 網絡工具
+ */
+object NetWorkUtils {
+
+    @SuppressLint("MissingPermission")
+/*
+        判断网络是否可用
+     */
+    fun isNetWorkAvailable(context: Context): Boolean {
+        val connectivityManager = context.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
+        val networkInfo = connectivityManager.activeNetworkInfo
+        return networkInfo != null && networkInfo.isConnected
+    }
+
+    @SuppressLint("MissingPermission")
+/*
+        检测wifi是否连接
+     */
+    fun isWifiConnected(context: Context): Boolean {
+        val cm = context.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
+        val networkInfo = cm.activeNetworkInfo
+        return networkInfo != null && networkInfo.type == ConnectivityManager.TYPE_WIFI
+    }
+
+    @SuppressLint("MissingPermission")
+/*
+        检测3G是否连接
+     */
+    fun is3gConnected(context: Context): Boolean {
+        val cm = context.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
+        val networkInfo = cm.activeNetworkInfo
+        return networkInfo != null && networkInfo.type == ConnectivityManager.TYPE_MOBILE
+    }
+}

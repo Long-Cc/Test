@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="5dp"
+    android:paddingBottom="10dp">
+
+    <TextView
+        android:id="@+id/mProgressTitleTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:padding="2dp"
+        android:textAlignment="textStart"
+        android:textSize="13sp" />
+
+    <ProgressBar
+        android:id="@+id/mProgressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="8dp"
+        android:layout_alignBottom="@+id/mProgressTitleTV"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/mProgressTitleTV"
+        android:layout_toStartOf="@+id/mProgressValueTv"
+        android:max="100"
+        android:paddingHorizontal="5dp"
+        android:progressDrawable="@drawable/single_progress_background" />
+
+    <TextView
+        android:id="@+id/mProgressValueTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:text="@string/default_progress_value"
+        android:padding="2dp"
+        android:textSize="13sp" />
+</RelativeLayout>

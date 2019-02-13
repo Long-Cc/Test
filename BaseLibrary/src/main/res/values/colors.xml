@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorGreen">#33FF00</color>
+    <color name="colorGreen2">#33FF33</color>
+    <color name="colorAccent">#3d3d3d</color>
+    <color name="colorPrimary">#03a9f4</color>
+    <color name="colorPrimaryDark">#03a9f4</color>
+    <color name="common_bg">#f5f5f5</color>
+    <color name="common_black">#000000</color>
+    <color name="common_blue">#03a9f4</color>
+    <color name="common_blue_dark">#0288d1</color>
+    <color name="common_blue_light">#039be5</color>
+    <color name="common_disable">#d9d9d9</color>
+    <color name="common_divider">#d4d4d4</color>
+    <color name="common_gray">#dddddd</color>
+    <color name="common_purple">#d500f9</color>
+    <color name="common_red">#f11919</color>
+    <color name="common_white">#ffffff</color>
+    <color name="common_yellow">#fe9c2f</color>
+
+    <color name="text_dark">#999999</color>
+    <color name="text_light_dark">#333333</color>
+    <color name="text_normal">#666666</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="white">#FFFFFF</color><!--白色 -->
+    <color name="orange">#FFA500</color><!--橙色 -->
+    <color name="item_device_list_title">#f44336</color>
+    <color name="item_device_list_item_background">#82b1ff</color>
+    <color name="black">#000000</color>
+    <color name="aliceblue">#F0F8FF</color><!--艾利斯兰 -->
+    <color name="aliceblue2">#F5F8FA</color><!--艾利斯兰 -->
+    <color name="bt_search_btn_pressed">#cf73d6</color>
+    <color name="lightsalmon">#FFA07A</color><!--亮肉色 -->
+    <color name="red">#FF0000</color><!--红色 -->
+    <color name="item_device_list_text">#000000</color>
+    <color name="themeColor">#00695C</color>
+    <color name="themeColor2">#009688</color>
+    <color name="themeColor3">#4DB6AC</color>
+    <color name="themeColor4">#1AB1AC</color>
+    <color name="themeColor5">#00F5FF</color>
+
+    <color name="formTitleBgColor">#8B2500</color>
+    <color name="formTitleColor">#FFFF00</color>
+
+    <color name="formBgColor">#473C8B</color>
+
+    <color name="saveBtnBg">#FF82B1FF</color>
+</resources>
